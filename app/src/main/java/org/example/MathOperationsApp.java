@@ -163,6 +163,7 @@ public class MathOperationsApp {
                 result = operand1 * operand2;
                 return Integer.parseInt(userAnswer) == result;
             case "/":
+            case ":":
                 result = operand1 / operand2;
                 return Integer.parseInt(userAnswer) == result;
             default:
