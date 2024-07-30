@@ -158,6 +158,8 @@ public class MathOperationsApp {
                 result = operand1 - operand2;
                 return Integer.parseInt(userAnswer) == result;
             case "*":
+            case "x":
+            case "X":
                 result = operand1 * operand2;
                 return Integer.parseInt(userAnswer) == result;
             case "/":
