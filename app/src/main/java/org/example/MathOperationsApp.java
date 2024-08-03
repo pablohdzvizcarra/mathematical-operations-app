@@ -17,7 +17,7 @@ import javax.annotation.Nullable;
 
 public class MathOperationsApp {
     private static boolean applicationRunning = true;
-    private static final int MAX_PAGE = 22;
+    private static final int MAX_PAGE = 24;
     private static final int MIN_PAGE = 4;
     private static File nextFileToProcess;
 
